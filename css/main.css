@@ -1,0 +1,132 @@
+
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+*, body {
+	margin: 0
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Muli', sans-serif;
+
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: #eee;
+}
+.container-gradient {
+	background: orange;
+	background: linear-gradient(to right, #fec329, #eb8835);
+	background: -webkit-linear-gradient(to right, #fec329, #eb8835);
+	background: -moz-linear-gradient( #fec329, #eb8835);
+	background: -o-linear-gradient( #fec329, #eb8835);
+	
+}
+.logo-wrap {
+	box-sizing: border-box;
+}
+.logo {
+	width: 100px;
+	height: auto;
+}
+.ea-logo {
+	width: 300px;
+	height: auto;
+}
+.logo-wrap__ea {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.flex-con {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	padding: 30px 50px;
+}
+.nav-right {
+	display: flex;
+} 
+.nav-right img {
+	width: 200px;
+	height: auto;
+}
+
+.main-section {
+	padding: 15px;
+	background-image: url(../img/banners/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+}
+.no-margin {
+	margin-bottom: 0!important;
+	margin-right: 0!important;
+	margin-left: 0!important;
+	margin-top: 0!important;
+	border: 0px;
+}
+.story-today {
+	color: #fff;
+	padding-left: 60px;
+}
+.no-bd {
+	border-radius: 0;
+	background-image: none;
+}
+.story-today__headline {
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	font-size: 40px;
+	font-weight: 900;
+}
+.story-today__headline a {
+	text-decoration: none;
+	color: white;
+}
+.btn-wrap .btn {
+	text-transform: capitalize;
+	padding: 10px 30px;
+	background: #325194;
+}
+.btn-wrap .btn:hover {
+	/*padding: 11px 30px;*/
+	transform: scale(1.01);
+	transition: all 0.3s;
+}
+.pb {
+	padding-bottom: 10px;
+}
+.fa-angle-right {
+padding-left: 10px; 
+}
+.social-handles--icon {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.social-handles--icon a {
+	color: #fff;
+}
+.pull-r {
+	position: absolute;
+	right: -100px;
+	top: 10px;
+}
+.fix-bottom {
+	position: absolute;
+    right: 50px;
+    bottom: -450px;
+	
+	}   
+
+
+
+

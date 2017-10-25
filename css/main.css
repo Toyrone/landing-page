@@ -23,8 +23,8 @@ a:hover, a:focus, a:active {
 	background: orange;
 	background: linear-gradient(to right, #fec329, #eb8835);
 	background: -webkit-linear-gradient(to right, #fec329, #eb8835);
-	background: -moz-linear-gradient( #fec329, #eb8835);
-	background: -o-linear-gradient( #fec329, #eb8835);
+	background: -moz-linear-gradient(to right, #fec329, #eb8835);
+	background: -o-linear-gradient(o right, #fec329, #eb8835);
 	
 }
 .logo-wrap {
@@ -125,8 +125,14 @@ padding-left: 10px;
 	position: absolute;
     right: 50px;
     bottom: -450px;
-	
 }   
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
 
 
 

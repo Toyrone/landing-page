@@ -48,12 +48,22 @@ a:hover, a:focus, a:active {
 	color: #fff;
 	padding: 30px 50px;
 }
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: row;
+}
 .nav-right {
 	display: flex;
 } 
 .nav-right img {
 	width: 200px;
 	height: auto;
+}
+.navbar-brand {
+	padding: 0;
 }
 
 .main-section {
@@ -126,13 +136,7 @@ padding-left: 10px;
     right: 50px;
     bottom: -450px;
 }   
-.flex-center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	flex-direction: column;
-}
+
 
 
 

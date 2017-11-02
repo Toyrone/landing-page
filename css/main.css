@@ -336,9 +336,14 @@ footer {
     padding: 0 0 20px;
     border-radius: 3px;
 }
-.profile__img img {
-    width: 300px;
+.profile__img {
+    /*width: 300px;*/
     height: auto;
+    box-sizing: border-box;
+}
+
+.profile__img img {
+    width: 100%;
 }
 .profile__details {
     text-align: center;
@@ -358,4 +363,11 @@ footer {
 .img-wrap {
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
+}
+.img-wrap img {
+    width: 100%;
+}
+w-100 {
+    width: 100%;
 }

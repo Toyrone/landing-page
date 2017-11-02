@@ -122,4 +122,10 @@
 	.partners {
 	    padding: 20px;
 	}
+	.flex-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 }

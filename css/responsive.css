@@ -2,7 +2,12 @@
 	.container {
 		padding: 0 
 	}
-
+	.text-wrap p {
+		font-size: 28px;
+	}
+	.text-wrap h1 {
+		font-size: 32px;
+	}
 	.flex-con {
 	    display: flex;
 	    justify-content: space-between;
@@ -43,6 +48,9 @@
 		padding-bottom: 30px;
 		padding-top: 30px;
 	}
+	.story-today__headline {
+		font-size: 36px;
+	}
 	.pull-r {
 		right: -1px;
 		top: -360px;
@@ -54,5 +62,64 @@
 	}   
 	.col-md-6 {
 		margin-bottom: 20px;
+	}
+
+	.nav-social {
+		display: none;
+	}
+	.logo-wrap__ea {
+		padding: 0 20px;
+	}
+	.menu {
+		float: none;
+		padding-top: 0;
+		text-align: center; 
+	}
+	.banner-left h1  {
+		font-size: 48px;
+	}
+	.banner-right {
+		text-align: center;
+		padding-right: 20px 20px 60px 20px; 
+	}
+	.about__desc {
+	    padding: 22px 10px 0px;
+	    flex-grow: 3;
+	}
+	.about__desc p {
+		font-size: 14px;
+		line-height: 1.3;
+	}
+	.about__featured--title h1 {
+	    font-weight: bold;
+	    line-height: 1.4;
+	    font-size: 32px;
+	}
+	.about__featured--title p {
+	    padding-left: 0;
+	    
+	}
+	.about__featured--title {
+	    padding: 0 10px;
+	}
+	.about__vision {
+	    padding: 0; 
+	    text-align: left;
+	}
+	.grid {
+		padding: 2px;
+		overflow-y: hidden;
+	}
+	.about__vision h3 {
+		padding-bottom: 10px;
+	}
+	.grid__card {
+		height: 250px;
+	}
+	.profile-card {
+	    margin: 20px;
+	}
+	.partners {
+	    padding: 20px;
 	}
 }

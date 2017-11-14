@@ -28,7 +28,7 @@
         <!-- animate on-scroll -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
-        <!-- Font muli- ggole font cdn -->
+        <!-- Font muli- google font cdn -->
         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -37,41 +37,15 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <nav class="navbar no-margin" role="navigation">
-            <div class="container-fluid container-gradient">
-                <!-- <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div> -->
-                
-                <!-- main header area -->
-                <div class="flex-con">
-                    <div class="text-wrap">
-                      <h1>Get help quick</h1>
-                    </div>
-                    <!-- Playstore section -->
-                    <div class="nav-right flex-center">
-                        <a class="navbar-brand logo-wrap" href="alertclinic.com">
-                            <img class="logo" src="img/logo/AlertClinicLogo.png" alt="AlertCLinic Logo">
-                        </a>
-                        <div class="playstore">
-                            <a href='https://play.google.com/store/apps/details?id=com.epidalert.alertclinic&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        
       
         <!-- Main section  -->
         <main>
         
-            <section class="main-section">
+            <section class="main-section--landing">
               
                 <div class="container">
+
                     <!-- EpidALert Logo -->
                     <div class="logo-wrap__ea">
                         <img class="ea-logo" src="img/logo/ea-logo.png" alt="EpidAlert Logo">
@@ -79,10 +53,12 @@
                     
                     <!-- Latest Blog Post -->
                     <div class="row">
-                        <div data-aos="fade-up" class="col-md-6">
+                        <div class="btn-wrap">
+                            <button class="btn btn-primary no-bd pb landing-btn"><a href="home.html">Proceed to Website </a><i class="fa fa-angle-right"></i></button>
+                        </div>
+                        <div data-aos="fade-up" class="col-lg-6 col-md-6">
                             <!-- Today's Story section -->
-                            <div class="story-today">
-
+                            <div class="story-today story-today--landing">
                                 <div class="story-today__heading">
                                     <h3>Today's Big Story</h3>
                                 </div>
@@ -101,10 +77,8 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="btn-wrap">
-                                <button class="btn btn-primary no-bd pb pull-r"><a href="home.html">Proceed to Website </a><i class="fa fa-angle-right"></i></button>
-                            </div>
+                        <div class="col-lg-6 col-md-6">
+                            
 
                             <div class="social fix-bottom">
                                 <div class="social-handles">
@@ -124,21 +98,19 @@
             </section>
 
         </main>
-          
-    
-        <footer>
-            <!-- <p>&copy; EpidALert 2017</p> -->
-        </footer>  
+         
         
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
 
+        <script>setTimeout(function() {window.location.href='about.html'}, 15000)</script>
         
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

@@ -19,22 +19,17 @@ $(".nav-dropdown a").click(function() {
 $('a.logo--partner').on('click', function() {
 	var description = $(this).data('desc');
 	var name = $(this).data('name');
+	var img = $(this).find('img').attr('src');
 
 	var desc = $('<p>' + description + '</p>');
-	var pName = $('h2' + name + '</h2>');
+	var pName = $('<h2>' + name + '</h2>');
 
+	$('.partner-info-head h2').text(name);
+	$('#partner-desc p').text(description);
+	$('#partner-logo').attr('src', img);
 
-	// var src = $(this).children('img').src;
-
-	$(this).closest('.partner-info-head h2').text().remove();
-	$(this).closest('.desc p').text().remove(); 
-
-	console.log(description, name);
 });
 
-function showContent() {
-
-}
 
 $(document).ready(function() {
 	$('nav li > a:not(:only-child)').click(function(e) {

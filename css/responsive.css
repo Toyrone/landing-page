@@ -171,4 +171,13 @@
 	.mobile-nav {
 		display: block!important
 	}
+	.no-pad {
+		padding: 0;
+	}
+	.logo--partner.col-md-4 {
+		width: 50%;
+	}
+	.desc {
+    padding: 20px;
+	}
 }

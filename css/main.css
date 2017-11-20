@@ -263,7 +263,8 @@ padding-left: 10px;
 }
 .vision {
     background-color: #f5f5f5;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    padding-top: 20px;
 }
 .about__vision {
     padding: 30px 100px;
@@ -271,6 +272,7 @@ padding-left: 10px;
 }
 .about__vision p {
     font-size: 18px;
+    line-height: 1.4;
 }
 .about__vision h3 {
     color: #325194;
@@ -278,6 +280,7 @@ padding-left: 10px;
     text-shadow: none;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .about__vision--body {
     width: 80%;
@@ -306,7 +309,10 @@ padding-left: 10px;
     margin: 5px 10px;
 }
 .grid__body {
-    padding-top: 30px;
+    padding-top: 15px;
+}
+.grid__title {
+    min-height: 80px;
 }
 
 .grid__card--green {
@@ -385,8 +391,10 @@ footer {
     font-size: 18px;
     margin-bottom: 0;
 }
+/*remove partners*/
 .partners {
     padding: 20px 50px;
+    background-color:  
 }
 .img-wrap {
     padding-top: 20px;
@@ -401,7 +409,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    /*flex-direction: column;*/
+  
 }
 .nav-social h5 {
     font-weight: bold;
@@ -420,6 +428,9 @@ footer {
     flex-wrap: wrap;
     padding-top: 15px;
     padding-bottom: 15px; 
+}
+.flex-logo a {
+    padding: 10px;
 }
 .logo--partner {
     width: auto;

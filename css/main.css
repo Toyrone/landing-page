@@ -233,6 +233,9 @@ padding-left: 10px;
     text-align: right;
     flex-grow: 1;
 }
+.about__sub-title {
+    font-weight: bold;
+}
 .about__title h1 {
     opacity: 0.5;
 }
@@ -272,7 +275,7 @@ padding-left: 10px;
 }
 .about__vision p {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.7;
 }
 .about__vision h3 {
     color: #325194;
@@ -285,6 +288,16 @@ padding-left: 10px;
 .about__vision--body {
     width: 80%;
     margin: 0 auto;
+}
+.about__read {
+    color: #b3b3b3;
+    text-transform: uppercase;
+    padding-right: 50px;
+    font-size: 24px;
+}
+.about__read:hover {
+    color: #b3b3b3;
+    text-decoration: underline;
 }
 .initiative {
     box-sizing: border-box;
@@ -337,6 +350,7 @@ padding-left: 10px;
 }
 .grid__text h4 {
     line-height: 1.2;
+    font-size: 20px;
 }
 footer {
     background-color: #1A2639;
@@ -385,6 +399,8 @@ footer {
 .heading {
     font-size: 28px;
     text-align: center;
+    color: #325194;
+    font-weight: 700;
 }
 .team p {
     padding-left: 125px;

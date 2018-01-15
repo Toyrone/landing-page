@@ -376,13 +376,14 @@ footer {
     font-weight: 700;
 }
 .profile-card {
-    margin: 20px 40px;
+    margin: 20px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     padding: 0 0 20px;
     border-radius: 3px;
     box-sizing: border-box;
     overflow: hidden;
+    height: 320px;
 }
 .profile__img {
     /*width: 300px;*/
@@ -403,9 +404,10 @@ footer {
     font-weight: 700;
 }
 .team p {
-    padding-left: 125px;
+    padding-left: 50px;
     font-size: 18px;
     margin-bottom: 0;
+    font-weight: bold
 }
 /*remove partners*/
 .partners {

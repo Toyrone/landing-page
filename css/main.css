@@ -221,10 +221,14 @@ padding-left: 10px;
 .about {
     color: #6f6f6f;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 .about-head {
     text-align: center;
     font-weight: 900;
+}
+.about-head h3 {
+    font-size: 32px;
 }
 .about-head h3, .about-head h5 {
     font-weight: 700;
@@ -275,6 +279,10 @@ padding-left: 10px;
     padding-bottom: 70px;
     padding-top: 20px;
 }
+.vision-item {
+    padding: 10px 20px;
+    flex-grow: 1;
+}
 .about__vision {
     padding: 30px 100px;
     text-align: center;
@@ -288,12 +296,14 @@ padding-left: 10px;
     font-weight: bold;
     text-shadow: none;
     text-align: center;
-    padding-top: 20px;
+    font-size: 32px;
     padding-bottom: 20px;
 }
 .about__vision--body {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 .about__read {
     color: #b3b3b3;

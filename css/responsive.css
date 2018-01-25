@@ -108,6 +108,12 @@
 	    padding: 0; 
 	    text-align: left;
 	}
+	.about__vision--body {
+	    width: 90%;
+	    margin: 0 auto;
+	    display: flex;
+	    flex-direction: column;
+		}
 	.grid {
 		padding: 2px;
 		overflow-y: hidden;
